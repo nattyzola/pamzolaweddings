@@ -1,0 +1,15 @@
+#header
+  #nav
+    / %span.heart &hearts;
+    =link_to("Home", root_path(), :class => "#{'inactive' unless action_name == 'index'}")
+    · 
+    =link_to("About", about_path(), :class => "#{'inactive' unless action_name == 'about'}")
+    · 
+    =link_to("Services", services_path(), :class => "#{'inactive' unless action_name == 'services'}")
+    · 
+    =link_to("Inspiration", inspiration_path(), :class => "#{'inactive' unless action_name == 'inspiration'}")
+    · 
+    =link_to("Planning Tools", free_wedding_planning_tools_path(), :class => "#{'inactive' unless action_name == 'free_wedding_planning_tools'}")
+    · 
+    =link_to("Let's Talk", contact_path(), :class => "#{'inactive' unless action_name == 'contact'}") 
+    / %span.heart &hearts;
