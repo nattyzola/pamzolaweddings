@@ -21,11 +21,3 @@ module Pamzolaweddings
     # config.i18n.default_locale = :de
   end
 end
-
-config.generators do |g|
-  g.template_engine :haml
-
-  # you can also specify a different test framework or ORM here
-  # g.test_framework  :rspec
-  # g.orm             :mongoid
-end    
