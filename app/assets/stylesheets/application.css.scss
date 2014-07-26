@@ -163,3 +163,15 @@ a:hover {
 	font-size: 50px;
 	color: #d81760;
 }
+#attribution {
+	max-width: 320px;
+	padding: 25px 0px;
+	margin: auto;
+	text-align: justify;
+}
+#attribution a {
+	text-decoration: none;
+}
+#attribution a:hover {
+	text-decoration: underline;
+}
