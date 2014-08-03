@@ -26,12 +26,18 @@ body {
 	color: #777;
 	line-height: 1.5em;
 }
+
+@font-face {
+font-family: saissant;
+src: url("/saissant.otf") format("opentype");
+}
+
 div {
 	margin: 0px;
 	padding: 0px;
 }
 a {
-	color: #d81760;
+	color: #d71cff;
 	text-decoration: none;
 }
 a:hover {
@@ -46,7 +52,8 @@ a:hover {
 #header {
 	position: fixed;
 	top: 0px;
-	border-bottom: 1px solid #d81760;
+	border-bottom: 1px solid #20ddff;  
+	// #d81760
 	background-color: #FFF;
 	width: 100%;
 	text-align: center;
@@ -58,10 +65,11 @@ a:hover {
 	padding: 16px 10px 15px;
 	font-size: 16px;
 	text-decoration: none;
-	border-bottom: 6px solid #d81760;
+	border-bottom: 6px solid #20ddff;
+	font-weight: 200;
 }
 #nav a:hover {
-	color: #d81760;
+	color: #d71cff;
 }
 #nav .inactive {
 	border-bottom: none;
@@ -81,12 +89,14 @@ a:hover {
 }
 
 #logo h1 {
-	margin: 130px auto 20px;
-	line-height: 1.3em;
+	margin: 130px auto 0px;
+	line-height: 0.9em;
 	font-weight: normal;
 	color: #777;	
 	padding: 0px;
-	font-size: 48px;	
+	font-size: 130px;
+	font-family: saissant;
+	// color: #d81760;
 }
 #logo h1 span {
 	display: block;
@@ -98,8 +108,7 @@ a:hover {
 	margin: auto;
 	max-width: 100%;
 }
-.intro {
-	// font-family: 'Raleway';	
+.intro {	
 	padding: 20px 0px;	
 	line-height: 1.8em;
 	margin: auto;
@@ -155,11 +164,11 @@ a:hover {
 	color: #d81760;
 }
 #a {
-	font-family: 'kepler-std-semicondensed-dis';
-	font-size: 62px;
+	// font-family: 'kepler-std-semicondensed-dis';
+	// font-size: 62px;
 }
 #b {
-	font-family: 'Pinyon Script','penna';
+	// font-family: 'Pinyon Script','penna';
 	font-size: 50px;
 	color: #d81760;
 }
