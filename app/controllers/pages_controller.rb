@@ -22,4 +22,5 @@ class PagesController < ApplicationController
 	def free_wedding_planning_tools
 
 	end
+
 end

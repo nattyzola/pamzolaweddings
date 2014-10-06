@@ -178,3 +178,23 @@ a:hover {
 	margin: auto;
 	text-align: justify;
 }
+#testimonials {
+	// padding: 10px;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+.column p {
+	padding: 0px 15px 15px;
+	margin: 0px;
+}
+p.author {
+	padding-bottom: 10px;
+}
+.column hr {
+	margin: 10px 15px 20px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	// width: 25px;
+}
