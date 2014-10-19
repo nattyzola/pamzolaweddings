@@ -47,21 +47,21 @@ a:hover {
 .clearfix {
 	clear: both;
 }
-@media only screen and (max-device-width: 400px) and (min-device-width: 320px){
+@media only screen and (max-device-width: 600px) and (min-device-width: 320px){
   	.mobile {
     	display: block;
- 		width: 100%;   	
+ 		// width: 100%;   	
  }
 	.desktop {
     	display: none;
  }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 	.desktop {
 		display: none;
 	}
 }
-@media (min-width: 400px) {
+@media (min-width: 600px) {
 	.mobile {
 		display: none;
 	}

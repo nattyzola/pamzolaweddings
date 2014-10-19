@@ -12,7 +12,8 @@
     · 
     =link_to("Let's Talk", contact_path(), :class => "#{'inactive' unless action_name == 'contact'}") 
   #nav.mobile
-    %p.page Pam Zola Weddings: #{action_name == 'free_wedding_planning_tools' ? 'Free Tools' : action_name.capitalize}
+    / %p.page Pam Zola Weddings: #{action_name == 'free_wedding_planning_tools' ? 'Free Tools' : action_name.capitalize}
+    %p.page Pam Zola Weddings
     %p.menu= link_to("Menu", '#', :class => "menu_link test")   
     %ul.mobile_menu
       %li= link_to("Home", root_path(), :class => 'inactive')
