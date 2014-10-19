@@ -47,7 +47,22 @@ a:hover {
 .clearfix {
 	clear: both;
 }
-
+@media (max-width: 600px) {
+  	.mobile {
+    	display: block;
+ }
+	.desktop {
+    	display: none;
+ }
+}
+@media (min-width: 600px) {
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: block;
+	}
+}
 
 #header {
 	position: fixed;
@@ -73,6 +88,26 @@ a:hover {
 }
 #nav .inactive {
 	border-bottom: none;
+}
+.mobile p {
+	padding: 0px 20px;
+	margin: 0px;
+}
+p.page {
+	float: left;
+}
+p.menu {
+	float: right;
+}
+ul.mobile_menu {
+	display: none;
+	margin: 0px 0px;
+	padding-top: 50px;
+	list-style: none;
+	text-align: left;
+}
+ul.mobile_menu li {
+	padding: 7px 0px;
 }
 
 
