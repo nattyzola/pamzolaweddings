@@ -22,4 +22,4 @@
       %li= link_to("Inspiration", inspiration_path(), :class => 'inactive')
       %li= link_to("Free Planning Tools", free_wedding_planning_tools_path(), :class => 'inactive')
       %li= link_to("Let's Talk", contact_path(), :class => 'inactive')
-    <script> $('a.menu_link').click(function(){$('ul.mobile_menu').toggle();});</script>
+    <script> $('a.menu_link').click(function(){$('ul.mobile_menu').slideToggle();});</script>
