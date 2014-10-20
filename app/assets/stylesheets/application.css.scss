@@ -47,18 +47,21 @@ a:hover {
 .clearfix {
 	clear: both;
 }
-@media only screen and (max-device-width: 600px) and (min-device-width: 320px){
-  	.mobile {
-    	display: block;
- 		// width: 100%;   	
- }
-	.desktop {
-    	display: none;
- }
-}
+// @media only screen and (max-device-width: 600px) and (min-device-width: 320px){
+//   	.mobile {
+//     	display: block;
+//  		// width: 100%;   	
+//  }
+// 	.desktop {
+//     	display: none;
+//  }
+// }
 @media (max-width: 600px) {
 	.desktop {
 		display: none;
+	}
+	.mobile {
+		display: block;
 	}
 }
 @media (min-width: 600px) {
@@ -162,7 +165,7 @@ ul.mobile_menu li {
 .intro p {
 	font-size: 16px;
 	font-weight: 200;
-	text-align: justify;
+	// text-align: justify;
 }
 .intro ul {
 	margin: 25px 0px;	
@@ -217,7 +220,7 @@ ul.mobile_menu li {
 	max-width: 440px;
 	padding: 25px 20px;
 	margin: auto;
-	text-align: justify;
+	// text-align: justify;
 }
 #testimonials {
 	// padding: 10px;
