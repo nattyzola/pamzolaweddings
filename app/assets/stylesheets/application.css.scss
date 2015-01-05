@@ -48,7 +48,7 @@ a:hover {
 	clear: both;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 625px) {
 	.desktop {
 		display: none;
 	}
@@ -56,7 +56,7 @@ a:hover {
 		display: block;
 	}
 }
-@media (min-width: 600px) {
+@media (min-width: 625px) {
 	.mobile {
 		display: none;
 	}
@@ -130,7 +130,7 @@ ul.mobile_menu li {
 	margin: auto;
 	max-width: 800px;
 }
-@media (min-width: 600px) {
+@media (min-width: 625px) {
 	#logo h1 {
 		margin: 130px auto 0px;
 		line-height: 0.9em;
@@ -174,7 +174,7 @@ ul.mobile_menu li {
 	font-size: 15px;
 	padding: 3px
 }
-@media (max-width: 600px) {
+@media (max-width: 625px) {
 	#images img {
 		max-width: 320px;
 		margin: 20px auto;
@@ -186,7 +186,7 @@ ul.mobile_menu li {
 
 	}
 }
-@media (min-width: 600px) {
+@media (min-width: 625px) {
 	#images {
 		max-width: 600px;
 		margin: auto;

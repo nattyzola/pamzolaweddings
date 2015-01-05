@@ -10,6 +10,8 @@
     · 
     =link_to("Planning Tools", free_wedding_planning_tools_path(), :class => "#{'inactive' unless action_name == 'free_wedding_planning_tools'}")
     · 
+    =link_to("Blog", "http://pam-zola.squarespace.com/", :class => "inactive", :target => "_blank")
+    · 
     =link_to("Let's Talk", contact_path(), :class => "#{'inactive' unless action_name == 'contact'}") 
   #nav.mobile
     / %p.page Pam Zola Weddings: #{action_name == 'free_wedding_planning_tools' ? 'Free Tools' : action_name.capitalize}
@@ -21,5 +23,6 @@
       %li= link_to("Services", services_path(), :class => 'inactive')
       %li= link_to("Inspiration", inspiration_path(), :class => 'inactive')
       %li= link_to("Free Planning Tools", free_wedding_planning_tools_path(), :class => 'inactive')
+      %li= link_to("Blog", "http://pam-zola.squarespace.com/", :class => 'inactive')
       %li= link_to("Let's Talk", contact_path(), :class => 'inactive')
     <script> $('a.menu_link').click(function(){$('ul.mobile_menu').slideToggle();});</script>
