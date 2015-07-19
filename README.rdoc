@@ -1,28 +1,18 @@
-== README
+* Install XCode and command line tools
+* Install bundler
+* Install homebrew
+* Install postgresql (brew install postgresql)
+* Download PostgreSQL App
+* Run bundle install (if pg blows up, try running 'ARCHFLAGS="-arch x86_64" bundle install'
+* Create db (createdb nattyzola)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run the local env, run 'rails server'
+To deploy run '
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Trouble shooting:
+* If using a copied .ssh directory need to do the following:
+* chmod 600 ~/.ssh/config
+* chmod 600 ~/.ssh/id_rsa
+* chmod 600 ~/.ssh/id_rsa.pub
+* ssh-add ~/.ssh/id_rsa
+(this was helpful: https://help.github.com/articles/error-permission-denied-publickey/, http://www.howtogeek.com/168119/fixing-warning-unprotected-private-key-file-on-linux/)
