@@ -8,3 +8,11 @@
 
 To run the local env, run 'rails server'
 To deploy run '
+
+Trouble shooting:
+* If using a copied .ssh directory need to do the following:
+* chmod 600 ~/.ssh/config
+* chmod 600 ~/.ssh/id_rsa
+* chmod 600 ~/.ssh/id_rsa.pub
+* ssh-add ~/.ssh/id_rsa
+(this was helpful: https://help.github.com/articles/error-permission-denied-publickey/, http://www.howtogeek.com/168119/fixing-warning-unprotected-private-key-file-on-linux/)
