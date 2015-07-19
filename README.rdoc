@@ -7,7 +7,7 @@
 * Create db (createdb nattyzola)
 
 To run the local env, run 'rails server'
-To deploy run '
+To deploy run 'git push heroku master'
 
 Trouble shooting:
 * If using a copied .ssh directory need to do the following:
