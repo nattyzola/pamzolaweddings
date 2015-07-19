@@ -3,4 +3,8 @@
 * Install homebrew
 * Install postgresql (brew install postgresql)
 * Download PostgreSQL App
-* Run bundle install
+* Run bundle install (if pg blows up, try running 'ARCHFLAGS="-arch x86_64" bundle install'
+* Create db (createdb nattyzola)
+
+To run the local env, run 'rails server'
+To deploy run '
