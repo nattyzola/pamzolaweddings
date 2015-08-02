@@ -2,13 +2,13 @@
 %html
   %head
     %title Pam Zola Weddings
+    %meta{content: "Pam Zola Weddings is a boutique wedding planning company based in Boulder, Colorado. Pam brings each and every wedding to life with style, grace, and impeccable attention to detail. Get married without a hitch.", name: "description"}
+    %meta{content: "width=device-width", name: "viewport"}
+    %link{href: "assets/favicon2.png", rel: "shortcut icon", type: "image/png"}
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     = javascript_include_tag 'application', 'data-turbolinks-track' => true   
     = csrf_meta_tags
-    %meta{content: "Pam Zola is a wedding planner, located in Boulder Colorado, specializing in Colorado weddings, Boulder weddings, ranch weddings and mountain weddings.", name: "description"}
-    %meta{content: "width=device-width", name: "viewport"}
-    %link{href: "assets/favicon2.png", rel: "shortcut icon", type: "image/png"}
     / %link{href: "http://fonts.googleapis.com/css?family=Raleway:600,400,300,200|Amatic+SC:400,700|Allura|Josefin+Sans|Rokkitt|Poiret+One|Pinyon+Script|Lato:300,200|Open+Sans:300,200", rel: "stylesheet", type: "text/css"}
   %body
     = render "layouts/header"

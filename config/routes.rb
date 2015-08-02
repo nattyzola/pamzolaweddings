@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'contact' => 'pages#contact'
   get 'inspiration' => 'pages#inspiration'
   get 'free_wedding_planning_tools' => 'pages#free_wedding_planning_tools'
+  get "/blog" => redirect("http://pam-zola.squarespace.com/")
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
